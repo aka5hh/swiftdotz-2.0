@@ -1,39 +1,35 @@
-# TRIP - Bus Travel Website HTML Template
+# Swiftdotz Corporate Website
 
-A simple, responsive, and modern bus travel template built using HTML5, CSS3, and JavaScript.
+Welcome to the repository for the official Swiftdotz corporate website. Swiftdotz is a global sourcing and supply chain distribution company, bridging the gap between global manufacturers and local markets.
 
-## 🚀 Preview
+## 📖 Overview
 
-- [Live Demo](https://themewagon.github.io/BusTraveller/)
+This project is a static, responsive frontend website designed to showcase Swiftdotz's diverse range of products and services, including:
 
-## 📥 Download
+- Pharmaceutical Packaging & Chemicals
+- Food Industry Ingredients (Sucrose, Additives)
+- Hardware, Tools & Electronics
+- RMG Fabrics
+- Water Treatment Solutions
 
-- [Download](https://github.com/prashtt/BusTravel-website)
+## ✨ Features
 
-## 🛠 Getting Started
+- **Modern & Responsive UI:** Fully responsive design that works seamlessly across desktop, tablet, and mobile devices.
+- **Custom Branding:** Two-toned headers and brand-specific color schemes tailored to the Swiftdotz identity.
+- **Service Catalog:** A clean grid layout highlighting core business sectors and product categories.
+- **Optimized Assets:** Lazy-loading implementation for images to improve page speed and performance.
 
-1. **Clone the repository**
+## 🛠️ Technologies Used
 
+- **HTML5:** Semantic markup for structure.
+- **CSS3:** Custom styling, Flexbox/Grid layouts, and responsive media queries.
+- **JavaScript:** (Add any specific JS libraries you used here, e.g., for navigation toggles or sliders).
+
+## 🚀 Getting Started
+
+To view or work on this project locally, simply follow these steps:
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/themewagon/BusTraveller
+   git clone [https://github.com/yourusername/swiftdotz-website.git](https://github.com/yourusername/swiftdotz-website.git)
    ```
-
-2. Navigate to the Project Folder
-
-```
-
-cd BusTraveller
-
-```
-
-3. Open the index.html in Browser
-
-## Author
-
-Design and UI concepts are crafted by [Code Prashtt](https://github.com/prashtt).
-
-## License
-
-- Design and code © [Code Prashtt](https://github.com/prashtt).
-- This project is licensed under the MIT License — free for personal and commercial use.
-- Distributed by [ThemeWagon](https://themewagon.com)
