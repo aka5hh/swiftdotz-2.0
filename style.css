@@ -11,8 +11,8 @@
 
   --brand-blue-from: #5468d4;
   --brand-blue-to: #1a237e;
-  --brand-green: #2d9e4f;
-  --brand-green-to: #026921;
+  --brand-green: #28eb63;
+  --brand-green-to: #004314;
 }
 
 * {
@@ -338,7 +338,7 @@ header::before {
   background: linear-gradient(
     135deg,
     var(--brand-green) 0%,
-    var(--brand-green) 100%
+    var(--brand-green-to) 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
