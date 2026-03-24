@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 :root {
-  --primary-color: #2887ff;
-  --primary-color-dark: #2476da;
+  /* --primary-color: #2887ff;
+  --primary-color-dark: #2476da; */
+  --primary-color: #2a63aa;
+  --primary-color-dark: #009218;
   --text-dark: #0a0a0a;
   --text-light: #737373;
   --extra-light: #f3f4f6;
@@ -402,6 +404,10 @@ header::before {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: 600;
+  color: var(--white);
+}
+
+.journey__card__content p {
   color: var(--white);
 }
 
