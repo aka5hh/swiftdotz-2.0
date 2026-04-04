@@ -750,12 +750,80 @@ footer {
   }
 }
 
-@media (width > 1200px) {
-  .header__content {
-    padding-inline: 1rem 0;
-  }
+/* ── Who We Are animated CTA button ───────────────────────── */
+.whoweare__btn__wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
 
-  .destination__grid {
-    gap: 2rem;
-  }
+.button {
+  --duration: 3000;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.85rem 2.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  color: var(--primary-color);
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 5rem;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  transition: color 0.3s 0.08s ease-out;
+  z-index: 0;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: 50%;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  z-index: -1;
+  transition: box-shadow 0.5s ease-out;
+}
+
+.button:hover {
+  color: var(--white);
+}
+
+.button:hover::before {
+  box-shadow: inset 0 0 0 12em var(--primary-color);
+}
+
+.button svg {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  transition: stroke 0.3s;
+}
+
+/* loading state */
+.button.loading {
+  pointer-events: none;
+}
+
+.button.loading span {
+  opacity: 0.6;
+}
+
+.header__content {
+  padding-inline: 1rem 0;
+}
+
+.destination__grid {
+  gap: 2rem;
 }
