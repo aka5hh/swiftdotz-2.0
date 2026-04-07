@@ -133,7 +133,12 @@ document.querySelectorAll(".button").forEach((button) => {
         svg.innerHTML = getPath(0, 0, [[3, 14], [8, 19], [21, 6]]);
         // navigate after checkmark
         setTimeout(() => {
-          window.location.hash = "#contact";
+          const href = button.dataset.href;
+          if (href) {
+            window.location.href = href;
+          } else {
+            window.location.hash = "#about.html";
+          }
           button.classList.remove("loading");
           svgPath.y = 20;
           svgPath.smoothing = 0;
