@@ -23,7 +23,7 @@ This project is a static, responsive frontend website designed to showcase Swift
 
 - **HTML5:** Semantic markup for structure.
 - **CSS3:** Custom styling, Flexbox/Grid layouts, and responsive media queries.
-- **JavaScript:** (Add any specific JS libraries you used here, e.g., for navigation toggles or sliders).
+- **JavaScript:** GSAP.
 
 ## 🚀 Getting Started
 
@@ -31,5 +31,5 @@ To view or work on this project locally, simply follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/swiftdotz-website.git](https://github.com/yourusername/swiftdotz-website.git)
+   git clone https://github.com/aka5hh/swiftdotz-2.0.git
    ```
