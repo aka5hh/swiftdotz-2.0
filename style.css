@@ -1248,7 +1248,7 @@ blockquote {
 @media (width > 768px) {
   .about__hero {
     margin-top: 0;
-    padding: 8rem 1rem 6rem;
+    padding: 4rem 1rem 6rem;
   }
   .about__intro__container {
     grid-template-columns: 1fr 1fr;
